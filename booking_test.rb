@@ -42,7 +42,7 @@ class AirplaneTest < Minitest::Test
   #   Let me thank you again for your effort supporting me. I wish you the best
   #   on this and all your future projects. The sky is most definitely the limit.
   #
-  #                                                 Love,
+  #                                                 Sincerely,
   #                                                   Minimum Viable CEO
   #
   #   P.S. You can reach me if you need anything at ceo@campflix.com
