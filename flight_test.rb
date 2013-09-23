@@ -35,7 +35,6 @@ class FlightTest < Minitest::Test
     # TODO: Do all the work
   end
 
-
   def test_flight_must_be_created_with_seats
     skip
 
@@ -56,8 +55,8 @@ class FlightTest < Minitest::Test
 
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
-    flight = Flight.new(seats)
-    assert_equal 21, flight.seats.count
+    flight = Flight.new("DC444",seats)
+    assert_equal 126, flight.seats.count
   end
 
   def test_flight_window_seats_returns_all_the_window_seats
@@ -72,7 +71,7 @@ class FlightTest < Minitest::Test
 
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
-    flight = Flight.new(seats)
+    flight = Flight.new("DC444",seats)
     assert_equal 42, flight.window_seats.count
   end
 
@@ -88,7 +87,7 @@ class FlightTest < Minitest::Test
 
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
-    flight = Flight.new(seats)
+    flight = Flight.new("HI667",seats)
     assert_equal 42, flight.aisle_seats.count
   end
 
@@ -104,7 +103,7 @@ class FlightTest < Minitest::Test
 
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
-    flight = Flight.new(seats)
+    flight = Flight.new("FR343",seats)
     assert_equal 42, flight.middle_seats.count
   end
 
@@ -120,12 +119,13 @@ class FlightTest < Minitest::Test
 
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
-    flight = Flight.new(seats)
-    assert_equal seat01, flight.seat("1A")
-    assert_equal seat03, flight.seat("1C")
-    assert_equal seat04, flight.seat("1D")
-    assert_equal seat06, flight.seat("1F")
+    flight = Flight.new("HI667",seats)
+    assert_equal seat_01, flight.seat("1A")
+    assert_equal seat_03, flight.seat("1C")
+    assert_equal seat_04, flight.seat("1D")
+    assert_equal seat_06, flight.seat("1F")
   end
+
 
   #
   # The remaining code here is working code that assists with the above tests
