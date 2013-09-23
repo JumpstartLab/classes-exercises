@@ -39,8 +39,13 @@ class FlightTest < Minitest::Test
   #        LinkedIn profile, I'll get you an interview.
 
   class Flight
-    # TODO: Do all the work
+    # TODO: DO ALL THE WORK
   end
+
+  #
+  # These are the test for the above code. As you are ready to fix bugs, finish
+  # features, and build new features remove the `skip` line from each test.
+  #
 
   def test_flight_must_be_created_with_seats
     skip
@@ -49,9 +54,9 @@ class FlightTest < Minitest::Test
     #   way to create all these seats dynamically. Right now I only made 1 row
     #   of seats. But our planes actually have 21 rows of seats.
     #
-    #   Maybe I could use ruby's Ranges to solve the problem. Whatever! I'm
-    #   going to program in Python starting next week. Ruby is lame anyways.
-    #   Hopefully you can figure it out.
+    #   Maybe I could use ruby's Ranges or the #times method to solve the
+    #   problem. Whatever! I'm going to program in Python starting next week.
+    #   Ruby is lame anyways. Hopefully you can figure it out.
 
     seat_01 = AirlineSeat.new("1A")
     seat_02 = AirlineSeat.new("1B")
@@ -63,7 +68,12 @@ class FlightTest < Minitest::Test
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
     flight = Flight.new("DC444",seats)
-    assert_equal 126, flight.seats.count
+    assert_equal 6, flight.seats.count
+
+    # If you can figure out an easy way how to generate 21 rows of seats,
+    # this would be the correct assertion.
+
+    # assert_equal 126, flight.seats.count
   end
 
   def test_flight_window_seats_returns_all_the_window_seats
@@ -79,7 +89,12 @@ class FlightTest < Minitest::Test
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
     flight = Flight.new("DC444",seats)
-    assert_equal 42, flight.window_seats.count
+    assert_equal 2, flight.window_seats.count
+
+    # If you can figure out an easy way how to generate 21 rows of seats,
+    # this would be the correct assertion.
+
+    # assert_equal 42, flight.window_seats.count
   end
 
   def test_flight_window_seats_returns_all_the_aisle_seats
@@ -95,7 +110,12 @@ class FlightTest < Minitest::Test
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
     flight = Flight.new("HI667",seats)
-    assert_equal 42, flight.aisle_seats.count
+    assert_equal 2, flight.aisle_seats.count
+
+    # If you can figure out an easy way how to generate 21 rows of seats,
+    # this would be the correct assertion.
+
+    # assert_equal 42, flight.aisle_seats.count
   end
 
   def test_flight_window_seats_returns_all_the_middle_seats
@@ -111,7 +131,12 @@ class FlightTest < Minitest::Test
     seats = [ seat_01, seat_02, seat_03, seat_04, seat_05, seat_06 ]
 
     flight = Flight.new("FR343",seats)
-    assert_equal 42, flight.middle_seats.count
+    assert_equal 2, flight.middle_seats.count
+
+    # If you can figure out an easy way how to generate 21 rows of seats,
+    # this would be the correct assertion.
+
+    # assert_equal 42, flight.middle_seats.count
   end
 
   def test_flight_can_return_the_seat_by_seat_number

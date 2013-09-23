@@ -57,6 +57,11 @@ def init(name,seat_count)
     def
   end
 
+  #
+  # These are the test for the above code. As you are ready to fix bugs, finish
+  # features, and build new features remove the `skip` line from each test.
+  #
+
   def test_plane_is_created_with_a_type_and_a_seat_count
     skip
     instance = Airplane.new("737",126)
@@ -81,11 +86,10 @@ def init(name,seat_count)
     assert_equal 42, flight.middle_seats.count
   end
 
-
   #
   # The remaining code here is working code that assists with the above tests
   # You shouldn't have to make changes to the code below this point to make
-  # the test to pass. However, you will definitely need to read the code
+  # the test to pass. However, you will probably need to read the code
   #
 
 

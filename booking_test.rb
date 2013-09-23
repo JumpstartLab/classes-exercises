@@ -80,6 +80,11 @@ class AirplaneTest < Minitest::Test
   end
 
 
+  #
+  # These are the test for the above code. As you are ready to fix bugs, finish
+  # features, and build new features remove the `skip` line from each test.
+  #
+
 
   def test_flight_returns_the_available_seats
     skip
