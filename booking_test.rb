@@ -100,7 +100,7 @@ class AirplaneTest < Minitest::Test
 
     assert_equal "1A", found_seat.seat_number
     assert_equal "1", found_seat.row
-    assert_equal "1", found_seat.position
+    assert_equal "A", found_seat.position
     assert found_seat.window?
   end
 
