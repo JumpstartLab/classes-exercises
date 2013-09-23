@@ -3,22 +3,26 @@
 > Dear Developer,
 >
 >   As the CEO of Planetastic it is my pleasure to welcome you to the team.
->   We are so very excited to have you here and looking forward how you are
->   going to take us into the future of Airline flight management.
+>   We are so very excited to have you here and are looking forward to all
+>   the great things you are going to build. The sky is the limit for us
+>   in Airline flight management software.
 >
->                                                 Sincerely,
->                                                    Minimum Viable CEO
+>   Sincerely,
+>      Minimum Viable CEO
 >
 
 ## Description
 
 The following exercises are designed to teach you how to effectively build a
-complex system through small steps. Each step you will write code to implement
-the functionality required to make the tests pass. Each exercise builds on
-the previous.
+complex system through a series of small steps. Each step of this adventure you
+will be presented with a series of problems to solve. Your objective is to
+implement the functionality defined in the tests. You finish a step when all
+the tests pass. Each exercise can be solved independently, however, each step
+introduces logical and domain information you will use on the next step.
 
-The goal of the exercises is to learn about how to build and manage multiple
-classes and to effectively compose them in a large scale application.
+The goal of theses exercises is to practice building an application which
+is composed of multiple different classes. This will start to help you
+understand how larger applications are created.
 
 Complete the exercises in the following order:
 
