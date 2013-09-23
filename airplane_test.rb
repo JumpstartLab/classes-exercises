@@ -18,15 +18,15 @@ class AirplaneTest < Minitest::Test
   #
   #   As the CEO of Planetastic it is my pleasure to make you the lead developer
   #   on our product. I am very proud of all the work you are doing. I am about
-  #   to get on a plane to see our investors. The last demo did for them was
-  #   good but they asked to see the other features.
+  #   to get on a plane to see our investors. The last demo I did for them was
+  #   good but they asked to see more features.
   #
   #   I realized we are going about this the wrong way. A flight having seats
-  #   thing doesn't make any sense. Shouldn't a flight have a plane and a plane
-  #   have many seats?
+  #   doesn't make any sense. Shouldn't a flight have a airplane and the
+  #   airplane have many seats?
   #
-  #   I took a CompSci class back in college so I through together some example
-  #   code that I am positive HAS NO BUGS in it. I used Microsoft Word as my
+  #   I took a CompSci class back in college so I threw together some code to
+  #   help you out. I don't think THERE ARE BUGS. I used Microsoft Word as my
   #   editor.
   #
   #   Anyways, I wish I had time to finish this up but I have a presentation

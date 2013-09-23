@@ -18,19 +18,20 @@ class AirlineSeatTest < Minitest::Test
   # Dear Developer,
   #
   #   We closed another round of funding. Woot! I guess we're able to keep the
-  #   the lights on for another few weeks before our next demo to our new
-  #   Masters...er, I mean Investors.
+  #   the two of us around and the lights on for another few weeks before our
+  #   next demo to our new masters...er, I mean investors.
   #
-  #   I had a little more time to think about seats and it seems strange that
-  #   they didn't have an actual seat number and we're not attached to a flight.
-  #   I wasn't able to finish everything and I am pretty sure THERE ARE BUGS
-  #   because I didn't have a chance to finish before our big StartUp Week party.
+  #   We need to model airline seats so we can allow the booking agents to  put
+  #   people in them. I started to build something but I wasn't able to finish
+  #   everything and I am pretty sure THERE ARE BUGS. I would finish it but
+  #   I am heading out to the big "Start Up Week" party.
   #
-  #   Aren't these company t-shirts so soft? Oh, yeah would you finish and fix
-  #   this code for me?
+  #   Oh, yeah would you finish and fix this code for me?
   #
   #                                                 Sincerely,
   #                                                   Minimum Viable Developer
+  #
+  #   P.S. Aren't these company t-shirts so soft?
 
 
   class AirlineSeat

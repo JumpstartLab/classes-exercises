@@ -24,28 +24,29 @@ class AirplaneTest < Minitest::Test
   #                                                              ~ -...0..~. ____
   #   Cessna 402  (Wings)
   #   by Dick Williams, rjw1@tyrell.net
-
+  #
   #
   # Dear Planetastic Team,
   #
   #   It has been a pleasure being your CEO for these past 9 months. It is with
-  #   a heavy heart that I am leaving the company. Tom from our board of
-  #   directors is going to step in and be acting CEO until a suitable
+  #   a heavy heart that I am leaving the company. Tom, from our board of
+  #   directors, is going to step in and be acting CEO until a suitable
   #   replacement is found.
   #
   #   Tom and I want to assure you that during this transition time that
-  #   everything will continue smoothly without interruption. We still have our
-  #   important demo to the Airline companies at the end of the week. Which
-  #   should be no problem because we have our lead developer putting the final
-  #   touches on the new booking features.
+  #   everything will continue smoothly. We still have our important demo
+  #   to the Airline companies at the end of the week. Which should be no
+  #   problem because we have our lead developer putting the final touches on
+  #   the new booking features.
   #
-  #   Let me thank you again for your effort supporting me. I wish you the best
-  #   on this and all your future projects. The sky is most definitely the limit.
+  #   Let me thank you again for your effort supporting me. I wish you all the
+  #   best on this and all your future projects. The sky is most definitely the
+  #   limit for every single one of you.
   #
   #                                                 Sincerely,
   #                                                   Minimum Viable CEO
   #
-  #   P.S. You can reach me if you need anything at ceo@campflix.com
+  #   P.S. You can reach me, if you need anything, at ceo@campflix.com
 
   class Flight
     def initialize(name,plane)
