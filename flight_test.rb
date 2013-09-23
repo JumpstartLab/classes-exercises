@@ -28,7 +28,7 @@ class FlightTest < Minitest::Test
   #                                                 Sincerely,
   #                                                   Minimum Viable Developer
   #
-  #   P.S. CampFlix is hiring. I get an iPad if they higher you. Send me your
+  #   P.S. CampFlix is hiring. I get an iPad if they hire you. Send me your
   #        LinkedIn profile, I'll get you an interview.
 
   class Flight
