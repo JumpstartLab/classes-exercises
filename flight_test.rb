@@ -97,7 +97,7 @@ class FlightTest < Minitest::Test
     # assert_equal 42, flight.window_seats.count
   end
 
-  def test_flight_window_seats_returns_all_the_aisle_seats
+  def test_flight_aisle_seats_returns_all_the_aisle_seats
     skip
 
     seat_01 = AirlineSeat.new("1A")
@@ -118,7 +118,7 @@ class FlightTest < Minitest::Test
     # assert_equal 42, flight.aisle_seats.count
   end
 
-  def test_flight_window_seats_returns_all_the_middle_seats
+  def test_flight_middle_seats_returns_all_the_middle_seats
     skip
 
     seat_01 = AirlineSeat.new("1A")
